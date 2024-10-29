@@ -1,0 +1,13 @@
+specVersion: "4.0"
+metadata:
+  name: project1
+type: application
+framework:
+  name: SAPUI5
+  version: "1.129.2"
+  libraries:
+    - name: sap.m
+    - name: sap.tnt
+    - name: sap.ui.core
+    - name: sap.ui.layout
+    - name: themelib_sap_horizon

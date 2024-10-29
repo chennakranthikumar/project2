@@ -1,0 +1,12 @@
+{
+    "name": "project1",
+    "version": "1.0.0",
+    "description": "SAP UI5 project one",
+    "scripts": {
+        "start": "ui5 serve -o index.html"
+    },
+    "devDependencies": {
+        "@ui5/cli": "^4.0.9"
+    }
+}
+
