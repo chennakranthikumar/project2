@@ -1,6 +1,51 @@
 {
-    "_version": "1.58.0",
-    "sap.app": {
-      "id": "project1"
+  "_version": "1.12.0",
+  "sap.app": {
+    "id": "project1",
+    "type": "application",
+    "title": "My UI5 App",
+    "description": "My First UI5 App",
+    "applicationVersion": {
+      "version": "1.0.0"
     }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "rootView": {
+      "viewName": "SAPUI5.Project1.Views.View1",
+      "type": "XML",
+      "async": true,
+      "id": "AppView1"
+    },
+    "dependencies": {
+      "minUI5Version": "1.60.0",
+      "libs": {
+        "sap.ui.core": {},
+        "sap.m": {}
+      }
+    },
+    "resourceRoots": {
+      "project1": "SAPUI5/Project1" 
+    },
+    "contentDensities": {
+    "compact": true,
+    "cozy": true
   }
+  }
+}
+
