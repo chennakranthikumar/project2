@@ -1,0 +1,11 @@
+<mvc:XMLView
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    controllerName="SAPUI5.Project1.Controllers.View2"
+>
+
+            <Page id="page2" title="page2">
+                <content />
+            </Page>
+
+</mvc:XMLView>

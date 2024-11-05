@@ -29,8 +29,7 @@
     "rootView": {
       "viewName": "SAPUI5.Project1.Views.View1",
       "type": "XML",
-      "async": true,
-      "id": "AppView1"
+      "async": true
     },
     "dependencies": {
       "minUI5Version": "1.60.0",
@@ -40,12 +39,62 @@
       }
     },
     "resourceRoots": {
-      "project1": "SAPUI5/Project1" 
+      "project1": "SAPUI5/Project1"
     },
     "contentDensities": {
-    "compact": true,
-    "cozy": true
-  }
+      "compact": true,
+      "cozy": true
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "viewType": "XML",
+        "type":"view",
+        "viewPath": "SAPUI5.Project1.Views",
+        "controlId": "app",
+        "controlAggregation": "pages",
+        "transition": "slide",
+        "async": true
+      },
+      "routes": [
+        {
+          "pattern": "",
+          "name": "view1",
+          "view":"view1",
+          "target": "view1"
+          
+        },
+        {
+          "pattern": "view2",
+          "name": "view2",
+          "view":"view2",
+          "target": "view2"
+        },
+        {
+          "pattern": "view1",
+          "name": "view1",
+          "view":"view1",
+          "target": "view1"
+          
+        }
+      ],
+      "targets": {
+        "view1": {
+          "viewName": "View1",
+          "viewType": "XML",
+          "viewPath": "SAPUI5.Project1.Views",
+          "viewId": "View1",
+          "viewLevel": 0
+        },
+        "view2": {
+          "viewName": "View2",
+          "viewLevel": 1,
+          "viewType": "XML",
+          "viewPath": "SAPUI5.Project1.Views",
+          "viewId": "View2"
+        }
+      }
+    }
+
   }
 }
-
