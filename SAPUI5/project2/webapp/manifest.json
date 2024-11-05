@@ -1,0 +1,21 @@
+{
+    "_version": "1.0.0",
+    "sap.app": {
+      "id": "ui5.project2"
+    },
+  "sap.ui5": {
+    "rootView" : {
+      "viewName": "SAPUI5.project2.Views.Welcome",
+      "type" : "XML",
+      "async": true
+    },
+    "models":{
+      "DataV1": {
+        "type":"sap.ui.model.json.JSONModel",
+        "uri":"Model/DataV1.json"
+      }
+
+    }
+  }
+    
+  }

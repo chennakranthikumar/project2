@@ -1,0 +1,18 @@
+<mvc:XMLView
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    controllerName="SAPUI5.project2.Controller.Welcome"
+>
+    <Shell>
+        <App id="Home">
+            <pages>
+                <Page
+                    id="page1"
+                    title="Welcome To  Login Page"
+                >
+                    <content />
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:XMLView>

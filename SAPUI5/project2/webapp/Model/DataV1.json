@@ -1,0 +1,18 @@
+{
+    "user": {
+        "name":"",
+        "actor": ""
+    },
+    "ValidActor":{
+           "user" : [
+            {
+                "name":"kranthi",
+                "actor":"Man"
+            },
+            {
+                "name":"kumar",
+                "actor":"Emp"
+            }
+           ]
+    }
+}
